@@ -21,4 +21,7 @@ public class Banco {
 		this.contas = contas;
 	}
 
+	public Banco(String nome) {
+		this.nome = nome;
+	}
 }
